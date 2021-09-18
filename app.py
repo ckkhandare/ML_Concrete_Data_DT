@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-pickle_in=open('D:/Users/HP/Desktop/streamlit_project1/best_grid.pkl','rb')
+pickle_in=open('best_grid.pkl','rb')
 best_grid=pickle.load(pickle_in)
 
 st.title('concrete dataset')
